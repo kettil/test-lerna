@@ -8,11 +8,10 @@ node_modules
 coverage
 docs
 
+# tools
+.changelog
+
 # application
 build
 tmp
 .env
-
-# copy files
-*/*/.prettierignore
-*/*/.prettierrc

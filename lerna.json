@@ -6,11 +6,12 @@
   "npmClient": "npm",
   "version": "independent",
   "changelog": {
+    "cacheDir": ".changelog",
     "ignoreCommitters": ["allcontributors"],
     "labels": {
       "enhancement": ":rocket: New Feature",
       "bug": ":bug: Bug Fix",
-      "internal": ":house: Internal"
+      "internal": ":house: Internal :-)"
     }
   }
 }
