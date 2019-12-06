@@ -8,7 +8,7 @@
     "clean": "lerna clean --yes && lerna run clean && rm -rf ./node_modules",
     "build": "lerna run build",
     "pub": "lerna publish__",
-    "publish": "lerna version__ --conventional-commits && lerna publish from-package --conventional-commits",
+    "__publish": "lerna version --conventional-commits && lerna publish from-package --conventional-commits",
     "test": "echo \"Error: no test specified\" && exit 1",
 
     "lint": "npm run prettier && npm run lint:check",
