@@ -4,5 +4,13 @@
     "packages/*"
   ],
   "npmClient": "npm",
-  "version": "independent"
+  "version": "independent",
+  "changelog": {
+    "ignoreCommitters": ["allcontributors"],
+    "labels": {
+      "enhancement": ":rocket: New Feature",
+      "bug": ":bug: Bug Fix",
+      "internal": ":house: Internal"
+    }
+  }
 }
