@@ -13,13 +13,14 @@
     "compile": "tsc --project tsconfig.build.json",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [
+  "_keywords": [
     "RxJS",
     "flux",
     "redux",
     "observable"
   ],
   "author": "Kjell Dießel <development@kettil.de>",
+  "homepage": "https://github.com/kettil/test-lerna/tree/master/packages/frontend",
   "license": "MIT",
   "engines": {
     "node": ">= 10"

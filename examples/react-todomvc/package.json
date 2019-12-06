@@ -6,6 +6,7 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "author": "Kjell Dießel <development@kettil.de>",
+  "homepage": "https://github.com/kettil/test-lerna/tree/master/examples/react-todomvc",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
