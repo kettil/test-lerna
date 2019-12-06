@@ -1,6 +1,7 @@
 # mac
 .DS_STORE
 ._*
+_
 
 # node.js
 node_modules
