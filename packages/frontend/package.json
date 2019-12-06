@@ -1,7 +1,10 @@
 {
   "name": "@flytrx/frontend",
-  "version": "0.2.0",
   "description": "react-fluxRx is a predictable state container for react apps",
+  "version": "0.2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
