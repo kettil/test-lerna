@@ -1,7 +1,7 @@
 {
   "name": "@flytrx/frontend",
   "description": "react-fluxRx is a predictable state container for react apps",
-  "version": "0.2.2-alpha.0",
+  "version": "0.2.3-alpha.0",
   "publishConfig": {
     "access": "public"
   },
@@ -33,7 +33,7 @@
     "url": "https://github.com/kettil/test-lerna/issues/new"
   },
   "dependencies": {
-    "@flytrx/backend": "^0.2.2-alpha.0"
+    "@flytrx/backend": "^0.2.3-alpha.0"
   },
   "gitHead": "30099d57db0f97141482bd7bb194cbe35481634d"
 }

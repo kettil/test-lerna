@@ -1,7 +1,7 @@
 {
   "name": "@flytrx/react-todomvc-ajax",
   "description": "A example project with react and ajax",
-  "version": "0.2.1-alpha.0",
+  "version": "0.2.3-alpha.0",
   "private": true,
   "main": "build/index.js",
   "types": "build/index.d.ts",
