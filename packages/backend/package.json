@@ -1,0 +1,34 @@
+{
+  "name": "@flytrx/backend",
+  "version": "0.1.1",
+  "description": "react-fluxRx is a predictable state container for react apps",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./build",
+    "compile": "tsc --project tsconfig.build.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "RxJS",
+    "flux",
+    "redux",
+    "observable"
+  ],
+  "author": "Kjell Dießel <development@kettil.de>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/test-lerna"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/test-lerna/issues/new"
+  },
+  "devDependencies": {
+
+  }
+}

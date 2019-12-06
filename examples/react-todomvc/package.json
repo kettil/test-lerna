@@ -1,0 +1,23 @@
+{
+  "name": "@flytrx/react-todomvc",
+  "version": "0.0.0",
+  "description": "A example project with react",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "private": true,
+  "author": "Kjell Dießel <development@kettil.de>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/test-lerna"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/test-lerna/issues/new"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
