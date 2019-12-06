@@ -1,4 +1,4 @@
 import meaningOfLife from '@flytrx/backend';
 
 // tslint:disable-next-line
-console.log(meaningOfLife * 4);
+console.log(meaningOfLife * 6);
