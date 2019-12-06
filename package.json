@@ -10,13 +10,11 @@
     "pub": "lerna publish__",
     "__publish": "lerna version --conventional-commits && lerna publish from-package --conventional-commits",
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "lint": "npm run prettier && npm run lint:check",
     "lint:check": "tslint --project ./tsconfig.json --config ./tslint.json --format codeFrame --fix",
     "lint:ci": "tslint --project ./tsconfig.json --config ./tslint.json --format codeFrame",
     "prettier": "prettier --config './.prettierrc' --write '.huskyrc' '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
     "prettier:ci": "prettier --config './.prettierrc' --list-different '.huskyrc' '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
-
     "postinstall": "npm run bootstrap"
   },
   "license": "ISC",
@@ -26,6 +24,7 @@
     "husky": "^3.1.0",
     "jest": "^24.9.0",
     "lerna": "^3.19.0",
+    "lerna-changelog": "^0.8.3",
     "prettier": "^1.19.1",
     "ts-jest": "^24.2.0",
     "tslint": "^5.20.1",
